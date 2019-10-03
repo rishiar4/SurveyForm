@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="title">
+	Survey Form</title>
+	<h1 id="head">Survey Form</h1>
+	<link rel ="Stylesheet"
+	type="text/css"
+	href="surveyformcss.css">
+</head>
+<body>
+<p id="description">
+	Let us know how we can improve freecodecamp</p>
+	
+		<div id="survey-form">
+			<form>
+				<div>
+	<label for ="name-label">*Name: </label>
+	<input id="name-label" name="name" type="text" required placeholder="Enter your name">
+	<br>
+	<label for="email-label">*E-mail:</label>
+	<input type="email" id="email-label" name="email" required placeholder="Enter your email">
+	<br>
+<label for="number-label">*Age:</label>
+<input type="number" id="number-label" name="age" required placeholder="Age" min="0" max="100">
+</div>
+
+	<label for="dropdown">"*Which option best describes your current role?"</label>
+	<select name="role" id="dropdown">
+		<option value="Student">Student</option>
+		<option value="0" selected disabled>Select an option</option>
+		<option value="job">Full time job</option>
+		<option value="learner">Full time learner</option>
+		<option value="not-to-say">Perfect not to say</option>
+		<option value="other">Other</option>
+	</select>
+	
+		<p>How likely is that you would recommend freeCodeCamp to a friend?
+	<div id="radio">
+		<label for="definitely">Definitely</label>
+	<input type="radio" name="how-likely" id="definitely" ><br>
+	<label for="maybe">Maybe</label>
+	<input type="radio" name="how-likely" id="maybe"><br>
+	<label for="notsure">Not Sure</label>
+	<input type="radio" name="how-likely" id="notsure"><br>
+</p></div>
+<p>Things that should be improved in future:
+	<br>
+	(Check all that apply<br>	<label for="front">Frontend</label>
+	<input type="Checkbox" value="front" id="front"><br>
+	<label for="back">Backend</label>
+<input type="Checkbox" name="back" id="back"><br>
+<label for="others">Others</label>
+<input type="Checkbox" name="other" id="others"><br></p>
+<p>Any comments or suggestions? 
+	<input type="textarea" placeholder="Enter your comments here
+	........">
+</p>
+<input type="submit"></p></form></div>
+</body>
+</html>
